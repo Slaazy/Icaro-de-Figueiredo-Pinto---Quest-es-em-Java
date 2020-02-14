@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Quest„o7 {
+public class Quest√£o7 {
 
+//verificar o setor e calcular o salario final de acordo com as horas trabalhadas
 	public static void main(String[] args) {
 		Scanner x = new Scanner(System.in);
 		
@@ -15,10 +16,10 @@ public class Quest„o7 {
 		
 		
 		if(setor == "Administrativo") {
-		   System.out.println("seu sal·rio final ser· de " + "R$" + horas*12);	   
+		   System.out.println("seu sal√°rio final ser√° de " + "R$" + horas*12);	   
 		}
 		else if(setor == "Produtivo") {
-			   System.out.println("seu sal·rio final ser· de " + "R$" + horas*10);	
+			   System.out.println("seu sal√°rio final ser√° de " + "R$" + horas*10);	
 		}
 		else 
 			if (setor != "produtivo" || setor != "administrativo");
