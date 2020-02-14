@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Questão3 {
+public class QuestÄƒo3 {
 
+//O produto mais barato
 	public static void main(String[] args) {
 		Scanner x = new Scanner (System.in);
 		float produto1,produto2,produto3;
@@ -16,13 +17,13 @@ public class Questão3 {
 		produto3 = x.nextFloat();
 		
 		if (produto1<produto2 && produto1<produto3) {
-			System.out.println("o mais barato será " + produto1);
+			System.out.println("o mais barato serÃ¡ " + produto1);
 		}
 		else if (produto2<produto1 && produto2<produto3) {
-			System.out.println("o mais barato será " + produto2);
+			System.out.println("o mais barato serÃ¡ " + produto2);
 		}
 		else if (produto3<produto1 && produto3<produto2) {
-			System.out.println("o mais barato será");
+			System.out.println("o mais barato serÃ¡");
 		}
 	
 		
