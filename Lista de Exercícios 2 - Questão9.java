@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Quest„o9 {
+public class Quest√£o9 {
 
+//verificar qual e o trinagulo
 	public static void main(String[] args) {
 		Scanner x = new Scanner(System.in);
 		
@@ -20,7 +21,7 @@ public class Quest„o9 {
 			} 
 		   else 
 			   if(A == B && C != B || B==C && A!=B || A==C && B!=A) {
-				System.out.println("IsÛsceles");
+				System.out.println("Is√≥sceles");
 			}
 		   else  
 		       if(A!=B && A!=C && B!=C) {
@@ -28,7 +29,7 @@ public class Quest„o9 {
 		       }
 			    
 		        else 
-		    	   System.out.println("n„o e um tri‚ngulo");
+		    	   System.out.println("n√£o e um tri√¢ngulo");
 		}
 	}
 }
