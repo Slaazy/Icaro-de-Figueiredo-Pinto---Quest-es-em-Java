@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class Questão5 {
+public class QuestÃ£o5 {
 
+//Em qual turno o alauno estuda
 	public static void main(String[] args) {		
 		
 		Scanner x = new Scanner (System.in);
 		char Turno;
 		
-		System.out.println("em que turno você estuda ?");
+		System.out.println("em que turno vocÃª estuda ?");
 		Turno = x.next().charAt(0);
 		
 		
