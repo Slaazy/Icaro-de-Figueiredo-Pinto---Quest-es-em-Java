@@ -1,27 +1,28 @@
 import java.util.Scanner;
 
-public class Quest„o6 {
+public class Quest√£o6 {
 
+//valor final e prazo com desconto
 	public static void main(String[] args) {
 		Scanner x = new Scanner (System.in);
 
 	String produto;
-	float preÁo = 0;
+	float pre√ßo = 0;
 	int pagamento;
 
 	System.out.println("informe o produto");
 	produto = x.nextLine();
-	System.out.println("informe o preÁo");
-	preÁo= x.nextFloat();
-	System.out.println("1 para prazo e 2 para ‡ vista");
+	System.out.println("informe o pre√ßo");
+	pre√ßo= x.nextFloat();
+	System.out.println("1 para prazo e 2 para √† vista");
 	pagamento = x.nextInt();
 	
 	if (pagamento == 1) {
-		System.out.println("seu valor final a prazo com desconto ser· " + ((preÁo-preÁo*5/100)));
+		System.out.println("seu valor final a prazo com desconto ser√° " + ((pre√ßo-pre√ßo*5/100)));
 	}
 	else
 		if(pagamento == 2) {
-			System.out.println("seu valor final ‡ vista com desconto " + ((preÁo+preÁo-2/100)));
+			System.out.println("seu valor final √† vista com desconto " + ((pre√ßo+pre√ßo-2/100)));
 		}
 	
 	
